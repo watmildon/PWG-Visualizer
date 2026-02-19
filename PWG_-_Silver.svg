@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- PWG Silver tier icon - Double-ring concentric outline -->
+<svg width="256" height="256" viewBox="0 0 256 256" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#">
+  <defs id="defs1"/>
+  <g id="layer1">
+    <!-- Silver: double-ring outline - step up from plain circle -->
+    <circle style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-opacity:1" id="outer-ring" cx="128" cy="128" r="122"/>
+    <circle style="fill:none;stroke:#000000;stroke-width:8;stroke-opacity:1" id="inner-ring" cx="128" cy="128" r="110"/>
+    <path d="m 153,52 c 0,10.97135 -9.52002,20.0229 -21.35081,20.0229 -11.6964,0 -21.21643,-9.05155 -21.21643,-20.0229 0,-11.10851 9.52003,-20.02281 21.21643,-20.02281 C 143.48081,31.97719 153,40.89149 153,52 Z m -42,28 h 13 l 72,52 v 12 h -8 l -43,-31 v 31 l 17,32 16.99908,40.00053 -9,8 -7.99938,-1.7e-4 L 145,184 111,136 V 99 L 90,116 73,144 H 60 v -8 l 13,-24 z m 7,83 -20,61 h -8 l -9,-8 23.99908,-67.99947 z" id="pedestrian" style="stroke-width:13.657">
+      <desc id="desc4">From the CC0 icon set Temaki</desc>
+      <title id="title4">Pedestrian Icon</title>
+    </path>
+  </g>
+  <metadata id="metadata1">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
