@@ -482,7 +482,8 @@ style:
       filter: ["all", ["==", ["geometry-type"], "Point"], ["==", ["get", "highway"], "crossing"]]
       layout:
         icon-padding: 0
-        icon-size: 0.075
+        icon-size:
+          stops: [[13, 0.06], [17, 0.12]]
         icon-allow-overlap: true
         icon-ignore-placement: true
         icon-image:
@@ -513,7 +514,7 @@ style:
               ["has","traffic_signals:minimap"],
               ["has","crossing:flags"]
             ],
-            "https://upload.wikimedia.org/wikipedia/commons/9/92/PWG_-_Diamond.svg",
+            "https://raw.githubusercontent.com/watmildon/PWG-Visualizer/refs/heads/main/PWG_-_Diamond.svg",
 
             # Gold
             ["all",
@@ -537,7 +538,7 @@ style:
               ["has","traffic_signals:arrow"],
               ["has","traffic_signals:vibration"]
             ],
-            "https://upload.wikimedia.org/wikipedia/commons/2/27/PWG_-_Gold.svg",
+            "https://raw.githubusercontent.com/watmildon/PWG-Visualizer/refs/heads/main/PWG_-_Gold.svg",
 
             # Silver
             ["all",
@@ -557,10 +558,10 @@ style:
               ],
               ["has","surface"]
             ],
-            "https://upload.wikimedia.org/wikipedia/commons/9/9d/PWG_-_Silver.svg",
+            "https://raw.githubusercontent.com/watmildon/PWG-Visualizer/refs/heads/main/PWG_-_Silver.svg",
 
             # Bronze (default)
-            "https://upload.wikimedia.org/wikipedia/commons/b/b7/PWG_-_Bronze.svg"
+            "https://raw.githubusercontent.com/watmildon/PWG-Visualizer/refs/heads/main/PWG_-_Bronze.svg"
           ]
 
     # ============================================================
@@ -613,7 +614,8 @@ style:
       filter: ["all", ["==", ["geometry-type"], "Point"], ["==", ["get", "barrier"], "kerb"]]
       layout:
         icon-padding: 0
-        icon-size: 0.075
+        icon-size:
+          stops: [[13, 0.06], [17, 0.12]]
         icon-allow-overlap: true
         icon-ignore-placement: true
         icon-image:
@@ -629,18 +631,18 @@ style:
                 ["has","tactile_paving:colour"]
               ]
             ],
-            "https://upload.wikimedia.org/wikipedia/commons/9/92/PWG_-_Diamond.svg",
+            "https://raw.githubusercontent.com/watmildon/PWG-Visualizer/refs/heads/main/PWG_-_Diamond.svg",
 
             # Gold
             ["all", ["has","kerb"], ["has","tactile_paving"], ["has","kerb:height"]],
-            "https://upload.wikimedia.org/wikipedia/commons/2/27/PWG_-_Gold.svg",
+            "https://raw.githubusercontent.com/watmildon/PWG-Visualizer/refs/heads/main/PWG_-_Gold.svg",
 
             # Silver
             ["all", ["has","kerb"], ["has","tactile_paving"]],
-            "https://upload.wikimedia.org/wikipedia/commons/9/9d/PWG_-_Silver.svg",
+            "https://raw.githubusercontent.com/watmildon/PWG-Visualizer/refs/heads/main/PWG_-_Silver.svg",
 
             # Bronze
-            "https://upload.wikimedia.org/wikipedia/commons/b/b7/PWG_-_Bronze.svg"
+            "https://raw.githubusercontent.com/watmildon/PWG-Visualizer/refs/heads/main/PWG_-_Bronze.svg"
           ]
 
 ---
